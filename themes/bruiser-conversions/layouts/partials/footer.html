@@ -5,7 +5,7 @@
           <span class="cta">Experience it Yourself:</span>
           <span>(727) 317-4902</span>
           <span class="main-color">|</span>
-          <span><a href="/contact">Email</span>
+          <span><a href="/contact">Email</a></span>
         </span>
         <span class="pull-xs-right">
           <div class="icons">
@@ -21,13 +21,13 @@
         <div class="nav-title">Power</div>
         <ul class="nav">
           <li class="nav-item">
-            <%= link_to 'LS', page_path('ls_conversions') %>
+            <a href="/ls_conversions">LS</a>
           </li>
           <li class="nav-item">
-            <%= link_to 'Diesel', page_path('diesel_conversions') %>
+            <a href="/hemi_conversions">Hemi</a>
           </li>
           <li class="nav-item">
-            <%= link_to 'Hemi', page_path('hemi_conversions') %>
+            <a href="/diesel_conversions">Diesel</a>
           </li>
         </ul>
       </div>
@@ -35,23 +35,30 @@
         <div class="nav-title">Body</div>
         <ul class="nav">
           <li class="nav-item">
-            <%= link_to 'Super Cab', page_path('body/super_cab') %>
+            <a href="body/super_cab">Super Cab</a>
           </li>
           <li class="nav-item">
-            <%= link_to 'JK Crew', page_path('body/jk_crew') %>
+            <a href="body/jk_crew">JK Crew</a>
           </li>
           <li class="nav-item">
-            <%= link_to 'Overlander', page_path('body/overlander') %>
+            <a href="body/overlander">Overlander</a>
           </li>
         </ul>
       </div>
       <div class="col-sm-6">
 				<div class="nav-title m-b-1">Subscribe to Our Newsletter</div>
-				<%= render partial: 'layouts/mailchimp.html.erb' %>
+        <form action="//bruiserconversions.us5.list-manage.com/subscribe/post?u=d811f685777a9e7b7d636c5b5&amp;id=b43dde87bf" method="post" class="form-inline subscribe">
+        	<div class="form-group m-b-1">
+        		<input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email Address">
+        	</div>
+        	<div class="text-xs-right">
+        		<input type="submit" value="Subscribe" name="subscribe" class="btn btn-outline-success btn-outline-brand">
+        	</div>
+        </form>
       </div>
     </div>
 
     <div class="copyright">
-      <p>&copy; 2012 - <%= Time.now.year %> Bruiser Conversions. All Rights Reserved.</p>
+      <p>&copy; 2012 - {{ .Now.Year }} Bruiser Conversions. All Rights Reserved.</p>
     </div>
   </div>
