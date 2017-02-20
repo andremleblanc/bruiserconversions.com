@@ -1,6 +1,5 @@
 language: go
-install:
-script:
+install: true
 deploy:
   provider: s3
   access_key_id: AKIAIOY6LANVWPDPWQOQ
