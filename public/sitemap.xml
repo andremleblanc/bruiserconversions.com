@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://example.org/certified_installation_facilities/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/diesel_conversions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/feed/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/hemi_conversions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/jk_crew/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ls_conversions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/overlander/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/reviews/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/super_cab/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
