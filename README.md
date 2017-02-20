@@ -20,3 +20,9 @@ hugo server
 ```
 
 **Make Changes and Commit**
+
+# Deploying 
+
+Run `hugo` to build static files.
+Commit and push changes.
+Travis CI will automatically push changes to Amazon S3.
