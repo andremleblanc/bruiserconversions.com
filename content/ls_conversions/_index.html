@@ -36,12 +36,13 @@
       <img src="/images/galleries/clyde-ls-tj/clyde-ls-tj-28.jpg">
       <img src="/images/galleries/clyde-ls-tj/clyde-ls-tj-29.jpg">
    </div>
-	<script>
-(function() { 
-    Galleria.loadTheme('/js/galleria.classic.min.js');
-    Galleria.run('.galleria');
-}());
-</script>
+    <script>
+    $(function() {
+        // Initialize Galleria
+        Galleria.run('.galleria',{autoplay: 7000
+});
+    });
+    </script>
     </div>
 		<div class="col-sm-6">
 			<h2>Overview</h2>
@@ -65,9 +66,6 @@
 
   <div class="row m-b-3">
 		<div class="col-sm-6">
-		<br>
-		<br>
-		<br>
 			<h2>Fully Integrated</h2>
 			<p>
         This conversion maintains all factory functionality, performing exactly

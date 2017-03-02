@@ -4,11 +4,13 @@
 <link rel="stylesheet" media="all" href="/css/bootstrap.css"/>
 <link rel="stylesheet" media="all" href="/css/font-awesome.min.css"/>
 <link rel="stylesheet" media="all" href="/css/application.css"/>
-<link rel="stylesheet" media="all" href="/js/galleria.classic.css"/>
+<link rel="stylesheet" media="all" href="/css/galleria.twelve.min.css"/>
+
 <script src="/js/jquery.js"></script>
 <script src="/js/tether.js"></script>
 <script src="/js/bootstrap.js"></script>
-<script src="/js/galleria-1.5.3.min.js"></script>
+<script src="/js/galleria-1.5.5.min.js"></script>
+<script src="/js/galleria.twelve.min.js"></script>
 <script src="https://use.typekit.net/pbd5vfs.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
@@ -129,12 +131,13 @@
       <img src="/images/galleries/overlander/overlander-48.jpg">
    </div>
    </div>
-	<script>
-(function() { 
-    Galleria.loadTheme('/js/galleria.classic.min.js');
-    Galleria.run('.galleria');
-}());
-</script>
+    <script>
+    $(function() {
+        // Initialize Galleria
+        Galleria.run('.galleria',{autoplay: 7000
+});
+    });
+    </script>
     </div>
     <div class="col-sm-6">
       <h2>Overview</h2>

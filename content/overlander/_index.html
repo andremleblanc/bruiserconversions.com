@@ -56,12 +56,13 @@
       <img src="/images/galleries/overlander/overlander-48.jpg">
    </div>
    </div>
-	<script>
-(function() { 
-    Galleria.loadTheme('/js/galleria.classic.min.js');
-    Galleria.run('.galleria');
-}());
-</script>
+    <script>
+    $(function() {
+        // Initialize Galleria
+        Galleria.run('.galleria',{autoplay: 7000
+});
+    });
+    </script>
     </div>
     <div class="col-sm-6">
       <h2>Overview</h2>
