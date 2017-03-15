@@ -1,49 +1,5 @@
 {{ define "main" }}
-<div id="home-carousel" class="carousel slide carousel-fade cover" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#home-carousel" data-slide-to="1"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <a href="/jeep-ls-conversions">
-        <div class="title">LS Engine Conversion</div>
-        <img src="images/jeep-ls-engine-conversion-002.jpg" />
-      </a>
-    </div>
-    <div class="carousel-item">
-      <a href="/jk-crew">
-        <div class="title">JK Crew Conversion</div>
-        <img src="images/jk-crew-conversion-005.jpg" />
-      </a>
-    </div>
-  </div>
-  <a class="left carousel-control" href="#home-carousel" role="button" data-slide="prev">
-    <span class="icon-prev" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#home-carousel" role="button" data-slide="next">
-    <span class="icon-next" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-<div class="container-fluid">
-  <h2 style="text-align: center">Social Media Feed</h2>
-  <ul class="juicer-feed" data-feed-id="bruiser-conversions" data-per="6"><h1 class="referral"><a href="https://www.juicer.io">Powered by Juicer</a></h1></ul>
-
-  <div class="row m-b-2">
-    <div class="col-sm-12 social-media">
-      <div class="content">
-        <div class="title m-b-1">Follow Us On</div>
-        <div class="icons">
-          <a class="icon-link" href="https://www.facebook.com/bruiserconversions" target="_blank"><img src="images/graphics/facebook.png" /></a>
-          <a class="icon-link" href="https://www.instagram.com/bruiserconversions/" target="_blank"><img src="images/graphics/instagram.png" /></a>
-          <a class="icon-link" href="https://www.youtube.com/user/BruiserConversions" target="_blank"><img src="images/graphics/youtube.png" /></a>
-        </div>
-      </div>
-      <img src="images/tmp-004.jpg" class='main' />
-    </div>
-  </div>
-</div>
+  {{ range .Data.Pages }}
+          {{if eq .RelPermalink "/index.html" }} {{.Content}} {{end}}
+  {{ end }}
 {{ end }}
