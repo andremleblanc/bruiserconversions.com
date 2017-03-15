@@ -2,48 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.org/certified-installation-facilities/</loc>
+    <loc>https://www.bruiserconversions.com/certified-installation-facilities/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/contact/</loc>
+    <loc>https://www.bruiserconversions.com/contact/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/feed/</loc>
+    <loc>https://www.bruiserconversions.com/feed/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/jeep-diesel-conversions/</loc>
+    <loc>https://www.bruiserconversions.com/jk-crew/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/jeep-hemi-conversions/</loc>
+    <loc>https://www.bruiserconversions.com/overlander/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/jeep-ls-conversions/</loc>
+    <loc>https://www.bruiserconversions.com/reviews/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/jk-crew/</loc>
+    <loc>https://www.bruiserconversions.com/super-cab/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/overlander/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/reviews/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/super-cab/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/</loc>
+    <loc>https://www.bruiserconversions.com/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bruiserconversions.com/jeep-diesel-conversions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.bruiserconversions.com/jeep-hemi-conversions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.bruiserconversions.com/jeep-ls-conversions/</loc>
   </url>
   
 </urlset>
