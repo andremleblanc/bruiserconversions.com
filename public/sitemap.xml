@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.org/certified_installation_facilities/</loc>
+    <loc>http://example.org/certified-installation-facilities/</loc>
   </url>
   
   <url>
@@ -10,23 +10,23 @@
   </url>
   
   <url>
-    <loc>http://example.org/diesel_conversions/</loc>
-  </url>
-  
-  <url>
     <loc>http://example.org/feed/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/hemi_conversions/</loc>
+    <loc>http://example.org/jeep-diesel-conversions/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/jk_crew/</loc>
+    <loc>http://example.org/jeep-hemi-conversions/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/ls_conversions/</loc>
+    <loc>http://example.org/jeep-ls-conversions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/jk-crew/</loc>
   </url>
   
   <url>
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.org/super_cab/</loc>
+    <loc>http://example.org/super-cab/</loc>
   </url>
   
   <url>
