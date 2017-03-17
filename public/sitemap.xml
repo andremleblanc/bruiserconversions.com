@@ -10,16 +10,12 @@
   </url>
   
   <url>
-    <loc>https://www.bruiserconversions.com/reviews/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.bruiserconversions.com/super-cab/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.bruiserconversions.com/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bruiserconversions.com/reviews/</loc>
   </url>
   
   <url>
@@ -36,6 +32,10 @@
   
   <url>
     <loc>https://www.bruiserconversions.com/jk-crew/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.bruiserconversions.com/super-cab/</loc>
   </url>
   
   <url>

@@ -23,13 +23,13 @@
     &lt;div class=&#34;carousel-item active&#34;&gt;
       &lt;a href=&#34;https://www.bruiserconversions.com/jeep-ls-conversion&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;LS Engine Conversion&lt;/div&gt;
-        &lt;img src=&#34;images/jeep-ls-engine-conversion-002.jpg&#34; /&gt;
+        &lt;img src=&#34;images/jeep-ls-engine-conversion-002.jpg&#34; alt=&#34;LS Engine Conversion&#34; /&gt;
       &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;carousel-item&#34;&gt;
       &lt;a href=&#34;https://www.bruiserconversions.com/jk-crew&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;JK Crew Conversion&lt;/div&gt;
-        &lt;img src=&#34;images/jk-crew-conversion-005.jpg&#34; /&gt;
+        &lt;img src=&#34;images/jk-crew-conversion-005.jpg&#34; alt=&#34;JK Crew Conversion&#34; /&gt;
       &lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
