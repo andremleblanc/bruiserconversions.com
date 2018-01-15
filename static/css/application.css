@@ -75,6 +75,18 @@ h1, h2, h3 {
   z-index: 100;
 }
 
+.carousel-fade .subtitle {
+  color: white;
+  font-family: "proxima-nova";
+  font-size: 21px;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  top: 315px;
+  width: 100%;
+  z-index: 100;
+}
+
 .cover {
   margin-bottom: -40px;
   height: 600px;

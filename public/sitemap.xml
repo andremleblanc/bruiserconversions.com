@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://www.bruiserconversions.com/certified-installation-facilities/</loc>
@@ -11,7 +12,7 @@
   </url>
   
   <url>
-    <loc>https://www.bruiserconversions.com/index.html</loc>
+    <loc>https://www.bruiserconversions.com/</loc>
   </url>
   
   <url>
@@ -24,6 +25,11 @@
   
   <url>
     <loc>https://www.bruiserconversions.com/overlander/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.bruiserconversions.com/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -52,6 +58,11 @@
   
   <url>
     <loc>https://www.bruiserconversions.com/jeep-hemi-conversion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.bruiserconversions.com/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
