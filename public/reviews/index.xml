@@ -2,13 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bruiser Conversions Reviews on Bruiser Conversions</title>
-    <link>https://www.bruiserconversions.com/reviews/</link>
+    <link>https://www.bruiserconversions.com/reviews/index.xml</link>
     <description>Recent content in Bruiser Conversions Reviews on Bruiser Conversions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://www.bruiserconversions.com/reviews/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://www.bruiserconversions.com/reviews/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
